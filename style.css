@@ -1,0 +1,31 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+/* Header*/
+.header {
+    display: flex:
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+.nav{
+list-style: none;
+display: flex;
+justify-content:space-around;
+align-items:flex-end;
+gap: 20px;
+}
+.nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
