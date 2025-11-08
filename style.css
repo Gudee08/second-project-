@@ -1,4 +1,4 @@
-body {
+.body {
   font-family: roboto;
   margin: 0;
   color: #f9faf8;
@@ -74,6 +74,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-items: self-end;
 }
 .box {
   display: flex;
@@ -91,6 +92,14 @@ ul {
   padding: 10px;
   margin: 10px;
 }
+.images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid blue;
+  padding: 30px;
+  margin: 20px;
+}
 .box h3 {
   font-size: 20px;
   font-weight: 20px;
@@ -98,6 +107,7 @@ ul {
 }
 .info-cards p {
   margin-top: 5px;
+  margin-top: 10px;
   font-size: 20px;
   padding: 40px;
 }
